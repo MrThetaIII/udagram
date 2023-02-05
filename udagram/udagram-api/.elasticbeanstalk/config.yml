@@ -1,3 +1,19 @@
 branch-defaults:
   default:
     environment: $ENV_NAME
+environment-defaults:
+  $ENV_NAME:
+    branch: null
+    repository: null
+global:
+  application_name: udagram-api
+  default_ec2_keyname: $DEFAULT_EC2_KEYNAME
+  default_platform: Node.js 16
+  default_region: $AWS_REGION
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: $PROFILE
+  sc: null
+  workspace_type: Application
