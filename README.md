@@ -74,19 +74,20 @@ The e2e tests are using Protractor and Jasmine.
 [Visit the site](http://udagram-app-123963.s3-website-us-east-1.amazonaws.com/)
 [api endpoint](http://udagram-api-dev22222222222.us-east-1.elasticbeanstalk.com/api/v0/feed)
 
-You will need to set a those environment variables in order to run the project locally:
-POSTGRES_USERNAME
-POSTGRES_PASSWORD
-POSTGRES_HOST
-POSTGRES_DB
-AWS_BUCKET
-AWS_REGION
-AWS_PROFILE
-JWT_SECRET
-URL
-AWS_DEFAULT_REGION
-AWS_ACCESS_KEY_ID
-AWS_SECRET_ACCESS_KEY
-AWS_DEFAULT_PROFILE
+## You will need to set a those environment variables in order to run the project locally:
+
+- POSTGRES_USERNAME
+- POSTGRES_PASSWORD
+- POSTGRES_HOST
+- POSTGRES_DB
+- AWS_BUCKET
+- AWS_REGION
+- AWS_PROFILE
+- JWT_SECRET
+- URL
+- AWS_DEFAULT_REGION
+- AWS_ACCESS_KEY_ID
+- AWS_SECRET_ACCESS_KEY
+- AWS_DEFAULT_PROFILE
 
 You may export them in a set_env.sh file and source it before running the project.
