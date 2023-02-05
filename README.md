@@ -37,11 +37,11 @@ This application is provided to you as an alternative starter project if you do 
 
 Provision the necessary AWS services needed for running the application:
 
-1. In AWS, provision a publicly available RDS database running Postgres. <Place holder for link to classroom article>
-1. In AWS, provision a s3 bucket for hosting the uploaded files. <Place holder for tlink to classroom article>
-1. Export the ENV variables needed or use a package like [dotnev](https://www.npmjs.com/package/dotenv)/.
-1. From the root of the repo, navigate udagram-api folder `cd starter/udagram-api` to install the node_modules `npm install`. After installation is done start the api in dev mode with `npm run dev`.
-1. Without closing the terminal in step 1, navigate to the udagram-frontend `cd starter/udagram-frontend` to intall the node_modules `npm install`. After installation is done start the api in dev mode with `npm run start`.
+1. In AWS, provision a publicly available RDS database running Postgres.
+2. In AWS, provision a s3 bucket for hosting the uploaded files.
+3. Export the ENV variables needed or use a package like [dotnev](https://www.npmjs.com/package/dotenv)/.
+4. From the root of the repo, navigate udagram-api folder `cd starter/udagram-api` to install the node_modules `npm install`. After installation is done start the api in dev mode with `npm run dev`.
+5. Without closing the terminal in step 1, navigate to the udagram-frontend `cd starter/udagram-frontend` to intall the node_modules `npm install`. After installation is done start the api in dev mode with `npm run start`.
 
 ## Testing
 
@@ -70,3 +70,23 @@ The e2e tests are using Protractor and Jasmine.
 ## License
 
 [License](LICENSE.txt)
+
+[Visit the site](http://udagram-app-123963.s3-website-us-east-1.amazonaws.com/)
+[api endpoint](http://udagram-api-dev22222222222.us-east-1.elasticbeanstalk.com/api/v0/feed)
+
+You will need to set a those environment variables in order to run the project locally:
+POSTGRES_USERNAME
+POSTGRES_PASSWORD
+POSTGRES_HOST
+POSTGRES_DB
+AWS_BUCKET
+AWS_REGION
+AWS_PROFILE
+JWT_SECRET
+URL
+AWS_DEFAULT_REGION
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
+AWS_DEFAULT_PROFILE
+
+You may export them in a set_env.sh file and source it before running the project.
